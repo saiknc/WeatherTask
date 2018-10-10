@@ -39,7 +39,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Future implement's which take more time ###
 * user can select any city by giving a additional mapview.
-
+* In case of ipad we can use splitview for better UI.
 
 
 
