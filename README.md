@@ -12,6 +12,8 @@ This README would normally document whatever steps are necessary to get your app
 
 * Install Cocoapods libraries of ( AFNetworking, SDWebImage, SVProgressHUD).
 
+ NOTE: As this is an assignment podfiles are already included in this repository. So, no need to install them again to run this app in simulator.
+
 ### How to install Cocoapods ###
 * Open terminal and type:
  ~ sudo gem install -n /usr/local/bin cocoapods
@@ -28,6 +30,8 @@ This README would normally document whatever steps are necessary to get your app
  * Depending how many libraries you added to your podfile for your project, the time to complete this varies. Once completed, there will be a message that says.
  "Pod installation complete! There are X dependencies from the Podfile and X total pods installed."
  * Now close your xcode project and open .xcworkspace xcode project file and Run it. :)
+ 
+
  
 ### Screenshots ###
 ![image](Screenshots/Screen1.png)
