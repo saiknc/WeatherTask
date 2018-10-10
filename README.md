@@ -30,7 +30,7 @@ This README would normally document whatever steps are necessary to get your app
  * Now close your xcode project and open .xcworkspace xcode project file and Run it. :)
  
 ### Screenshots ###
-![image](Screen1.png)
-![image](Screen2.png)
+![image](Screenshots/Screen1.png)
+![image](Screenshots/Screen2.png)
 
 
