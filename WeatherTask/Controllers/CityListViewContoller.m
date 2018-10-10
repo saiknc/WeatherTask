@@ -85,7 +85,13 @@
     
     UILabel *lblTemp = (UILabel *)[cell viewWithTag:77];
     lblTemp.text = objjModel.strTemp;
-    
+    if (IS_IPHONE5) {
+        lblCityName.font = [UIFont systemFontOfSize:25];
+        lblTemp.font = [UIFont systemFontOfSize:30];
+    } else {
+        lblCityName.font = [UIFont systemFontOfSize:30];
+        lblTemp.font = [UIFont systemFontOfSize:40];
+    }
     UILabel *lblTime = (UILabel *)[cell viewWithTag:777];
     lblTime.text = objjModel.strTime;
     

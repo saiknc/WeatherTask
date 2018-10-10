@@ -10,6 +10,9 @@
 #define Constants_h
 #import "AppDelegate.h"
 
+#define IS_IPHONE5                                                             \
+(([[UIScreen mainScreen] bounds].size.height - 568) ? NO : YES)
+
 #define KAppDelegate                                                           \
 ((AppDelegate *)[[UIApplication sharedApplication] delegate])
 
